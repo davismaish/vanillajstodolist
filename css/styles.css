@@ -65,11 +65,8 @@ body {
     font-style: oblique;
     line-height: 75px;
     position: absolute;
-    left: 200px;
-    top: 20px;
-    animation-name: left;
-    animation-duration: 3s;
-}
+    left: 170px;
+    top: 20px;}
 
 @keyframes left {
     from {transform: translate(300px)}
@@ -395,6 +392,7 @@ svg{
     top: 0px;
     left: 1000px;
     display: none;
+
 }
 
 .arrow{
@@ -507,6 +505,7 @@ input[type="text"] {
     text-align: center;
     background-image:  linear-gradient(135deg ,rgba(34, 177, 233, 0.877), rgb(65, 131, 255));
     box-shadow: -10px -10px 10px rgba(0, 0, 0, 0.479);
+
  
 }
 
@@ -514,28 +513,63 @@ input[type="text"] {
     text-transform: uppercase;
 }
 
+/* foooter styles */
+.position{
+  display: none;
+}
 
 .footer-text{
-    width: 1550px;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    padding-left: 12px;
-    align-self: center;
-    font-style: normal;
-    font-size: 15px;
-    text-transform: uppercase;
-    letter-spacing: 12px;
     display: flex;
-    flex-direction: row;
+    justify-content: flex-start;    
+    height: 90px;
+    padding-top: 30px;
+    padding-left: 20px;
 }
 
-#numb{
-    background-color: #777;
-    color: #ffffff;
-    border-radius: 50%;
+#com{
+    display: inline-block;
+    font-style: normal;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
     position: relative;
-    left: 20px;
+    top: 10px;
 }
+
+#nb{
+    background-color: #777;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    border-radius: 50%;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 10px;
+    top: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
