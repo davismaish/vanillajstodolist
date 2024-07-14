@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.png"  type="image/png">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/a012e42616.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>To-Do | make each day a success</title>
+
+</head>
+<body>
+
+ <header>
+  <div class="header-box" id="top-box">  
+      
+      <div class="heading-box">
+        <div class="logo-box"><img src="images/logo.png" alt="logo" class="logo"></div>
+
+        <span id="heading-main">to-do list</span>
+        <span id="heading-sub">dont sweat the small stuff <br> <span id="last">anymore</span></span>
+        <div class="date-box">
+          <h4 id="date">july 10, 2024 </h4>
+        </div>       
+      </div>
+
+      <div class="stats">
+     
+        <div class="circular-bar">
+          <div class="out">
+            <div class="in">
+              <div id="num">
+                65%
+              </div>
+            </div>
+          </div>
+          <div class="progress">
+            <span id="nmber">65%</span>
+            <span id="word">
+              complited
+            </span>
+          </div>
+       </div>
+
+
+         <div class="personal">
+          <span id="number-1">24</span>
+          <span id="name-1">personal</span>
+         </div>
+         
+         <div class="business">
+          <span id="number-2">15</span>
+          <span id="name-2">business</span>
+         </div>
+       
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" version="100" width="100px" height="100px">
+      <defs>
+        <linearGradient id="gradientColor">
+          <stop offset="0%" stop-color="#54c3f7" />
+          <stop offset="100%" stop-color="#180586" />
+          </linearGradient> 
+      </defs>
+      <circle cx="49" cy="49" r="40" stroke-linecap="round" />
+   </svg>
+
+  </div>
+  </div>
+</header>
+
+<main>
+  <div class="task-list">
+
+       <div class="inbox-row">inbox
+
+        <button><span class="material-symbols-outlined"  id="add" title="add new task"> 
+          add
+          </span></button>
+       </div>
+       
+       <div class="tasks">  
+   
+    <!--
+      <div class="task">
+          <div class="icon-1">
+            <span class="material-symbols-outlined" id="work">
+              work
+              </span>
+          </div>
+          
+          <div class="task-description">
+             <span id="task">Meeting with the board</span> 
+             <span id="description"><p>To discuss about the expansion of the company</p></span>
+          </div>
+
+          <div class="time-close">
+            <div class="time">10AM</div>
+            <div class="delete">
+              <button class="del">
+              <span class="material-symbols-outlined" id="close">
+                close
+                </span>
+              </button>
+             </div>
+          </div>
+
+        </div>
+      
+    -->
+           
+ 
+           <div class="task">
+         <div class="icon-2">
+          <span class="material-symbols-outlined" id="headphones">
+            headphones
+            </span>
+         </div>
+         <div class="task-description">
+           <span id="task">lunch Run</span>
+           <span id="description"><p>30min Lunch run after company Meeting</p></span>
+         </div>
+         <div class="time-close">
+          <div class="time">11AM</div>
+          <div class="delete">
+            <button class="del">
+            <span class="material-symbols-outlined" id="close">
+              close
+              </span>
+            </button>
+           </div>
+        </div>
+
+       </div>
+ 
+   
+ 
+    
+         <div class="task">
+         <div class="icon-3">
+          <span class="material-symbols-outlined" id="fitness_center">
+            fitness_center
+            </span>
+         </div>
+         <div class="task-description">
+           <span id="task">Run 1000 miles</span>  
+           <span id="description"><p>To increse stamina</p></div>
+
+            <div class="time-close">
+              <div class="time">12PM</div>
+              <div class="delete">
+                <button class="del">
+                <span class="material-symbols-outlined" id="close">
+                  close
+                  </span>
+                </button>
+               </div>
+            </div>
+
+       </div>
+    
+ 
+      </div>
+  </div>
+
+  <div class="forms">
+   
+    <div class="arrow">
+      <button>
+        <span class="material-symbols-outlined" id="arrow-back">
+          arrow_back
+          </span>
+      </button>
+     
+    </div>
+    
+    <div class="text">
+       <h3>add task here</h3>
+    </div>
+
+    <div class="menu-icon">
+      <span class="material-symbols-outlined" id="menu">
+        menu
+        </span>
+    </div>
+
+     <div class="icon_1">
+      <span class="material-symbols-outlined" id="pic">
+        work
+        </span>
+     </div>
+
+     <div class="drop">
+       <select name="category" id="down">
+        <option value="business">business</option>
+        <option value="personal">personal</option>
+        <option value="exercise">exercise</option>
+       </select>
+     </div>
+
+   
+        <input type="text" id="tsk" placeholder="Enter task here...." minlength="3" maxlength="13">
+        <input type="text" id="descption" placeholder="Descption...." minlength="3" maxlength="50">
+        <input type="text" id="time" placeholder="Time...." minlength="0" maxlength="5">
+
+      <div class="btn">
+        <button id="btn">
+          <h3>add task</h3>
+        </button>
+      </div>
+
+  </div>
+
+</main>
+<footer class="position">
+
+ 
+    <div class="footer-text">
+    complited   
+    <h3 id="numb">0</h3>   
+  </div>
+ 
+</footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
